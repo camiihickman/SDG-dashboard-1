@@ -46,7 +46,11 @@ h1{
   margin: 5vw;
   margin-top: 0;
 }
-h2:hover{
+h2 a{
+  color: white;
+  text-decoration: none;
+}
+h2 a:hover{
   color: #DDDDDD;
   transition-duration:.25s;
 }
@@ -66,7 +70,7 @@ h3{
   font-style: italic;
   color: white;
   line-height: 1em;
-  margin-top: 0.25em;
+  margin-top: 0.5em;
   margin-bottom: 0.5em;
   font-weight: 400;
 }
@@ -87,6 +91,9 @@ h3{
   width: 14vw;
   height: 14vw;
   transition-duration:.15s;
+  background-size: 100%;
+  background-attachment: local;
+  background-repeat: no-repeat;
 }
 
 .goal img{
@@ -94,7 +101,6 @@ h3{
   width: 14vw;
   transition-duration: .05s;
 }
-
 
 /*hover effects: general*/
 .goal:hover .goaltext{
@@ -146,57 +152,74 @@ justify-content: center;
 /*goal colors*/
 #goal1{
   background-color: #e5243b;
+  background-image: url("img/transparent-goal-0l.png");
 }
 #goal2{
   background-color: #cc9935;
+    background-image: url("img/transparent-goal-02.png");
 }
 #goal3{
   background-color: #4c9F38;
+    background-image: url("img/transparent-goal-03.png");
 }
 #goal4{
   background-color: #C5192D;
+    background-image: url("img/transparent-goal-04.png");
 }
 #goal5{
   background-color: #FF3A21;
+    background-image: url("img/transparent-goal-05.png");
 }
 #goal6{
   /*background-color: #26BDE2;*/
   background-color: #23abcc;
+    background-image: url("img/transparent-goal-06.png");
 }
 #goal7{
 /*  background-color: #FCC30B;*/
   background-color: #ccab08;
+    background-image: url("img/transparent-goal-07.png");
 }
 #goal8{
   background-color: #A21942;
+    background-image: url("img/transparent-goal-08.png");
 }
 #goal9{
   background-color: #FD6925;
+    background-image: url("img/transparent-goal-09.png");
 }
 #goal10{
   background-color: #DD1367;
+    background-image: url("img/transparent-goal-10.png");
 }
 #goal11{
   /*background-color: #FD9D24;*/
   background-color: #d9851e;
+    background-image: url("img/transparent-goal-11.png");
 }
 #goal12{
 /*  background-color: #BF8B2E;*/
   background-color: #b3812b;
+    background-image: url("img/transparent-goal-12.png");
 }
 #goal13{
   background-color: #3F7E44;
+    background-image: url("img/transparent-goal-13.png");
 }
 #goal14{
   background-color: #0A97D9;
+  background-image: url("img/transparent-goal-14.png");
 }
 #goal15{
   /*background-color: #56C02B;*/
   background-color: #4fb327;
+    background-image: url("img/transparent-goal-15.png");
 }
 #goal16{
   background-color: #00689D;
+    background-image: url("img/transparent-goal-16.png");
 }
 #goal17{
   background-color: #19486A;
+    background-image: url("img/transparent-goal-17.png");
 }
