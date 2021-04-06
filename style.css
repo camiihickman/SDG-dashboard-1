@@ -13,11 +13,19 @@ body{
 #header{
   margin: 0 5vw 0 5vw;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 5vw 5vw 1fr;
 }
 #header img{
-  margin-left: -3vw;
-  width: 30vw;
+  display: inline;
+}
+#globaltolocal{
+  margin-left: -1vw;
+  width: 20vw;
+}
+#unanca{
+  mix-blend-mode: darken;
+  width: 5vw;
+  margin-top: 1.5vw;
 }
 #nav{
   width: 100%;
@@ -26,23 +34,22 @@ body{
 }
 #nav a{
   margin: 1vw;
-  font-size: 1.5vw;
-  font-variant-caps: all-small-caps;
+  font-size: 1.2rem;
+  text-transform: uppercase;
   text-decoration: none;
   color: #707070;
 }
 p{
-  font-size: 1vw;
+  font-size: 1.2rem;
   color: white;
   line-height: 1.25em;
 }
 h1{
-  font-size: 4.5vw;
+  font-size: 3rem;
   color: #707070;
   font-weight: 300;
-  font-variant-caps: all-small-caps;
-  line-height: .9em;
-  letter-spacing: -.03em;
+  text-transform: uppercase;
+  line-height: 1em;
   margin: 5vw;
   margin-top: 0;
 }
@@ -52,26 +59,26 @@ h2 a{
 }
 h2 a:hover{
   color: #DDDDDD;
-  transition-duration:.25s;
+  transition-duration:.5s;
+  text-decoration: underline;
 }
 h2{
-  font-size: 3vw;
+  font-size: 2.7rem;
   color: white;
   margin-top: -.5em;
-  margin-bottom: 0.1em;
-  font-variant-caps: all-small-caps;
+  margin-bottom: 0;
+  text-transform:uppercase;
   font-weight: 500;
-  line-height: .8em;
-  letter-spacing: -.02em;
+  line-height: 1em;
 }
 
 h3{
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   font-style: italic;
   color: white;
-  line-height: 1em;
+  line-height: 1.05em;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0;
   font-weight: 400;
 }
 .goaltext{
@@ -90,7 +97,7 @@ h3{
 .goal{
   width: 14vw;
   height: 14vw;
-  transition-duration:.15s;
+  transition-duration:.25s;
   background-size: 100%;
   background-attachment: local;
   background-repeat: no-repeat;
@@ -99,14 +106,12 @@ h3{
 .goal img{
   height: 14vw;
   width: 14vw;
-  transition-duration: .05s;
 }
 
 /*hover effects: general*/
 .goal:hover .goaltext{
   visibility: visible;
-  transition-delay: .15s;
-  transition-duration: .2s;
+  transition-delay: .25s;
 }
 .goal:hover img{
   visibility: hidden;
@@ -120,7 +125,7 @@ h3{
   grid-row: span 2;
   overflow-y: scroll;
   overflow-x: hidden;
-  transition-duration: .15s;
+  transition-duration: .25s;
 }
 
 #goal6:hover, #goal12:hover{
@@ -152,7 +157,7 @@ justify-content: center;
 /*goal colors*/
 #goal1{
   background-color: #e5243b;
-  background-image: url("img/transparent-goal-0l.png");
+  background-image: url("img/transparent-goal-01.png");
 }
 #goal2{
   background-color: #cc9935;
