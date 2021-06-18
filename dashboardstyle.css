@@ -103,6 +103,7 @@ h3{
 }
 
 .goaltext{
+  z-index: 2;
   padding: 1.5vw;
   margin: 0;
   height: 28.8vw;
@@ -138,6 +139,8 @@ h3{
 }
 
 .goal img{
+  z-index: 0;
+  pointer-events: none;
   height: 14vw;
   width: 14vw;
   grid-column: 1/2;
@@ -177,17 +180,20 @@ h3{
 .goal img{
 
 }
-#goal6:hover, #goal12:hover, #goal6:active, #goal12:active{
+#goal6:hover, #goal5:hover, #goal11:hover, #goal12:hover, #goal6:active, #goal5:active, #goal11:active, #goal12:active{
   grid-row: auto;
   grid-column: auto;
   margin-left: -14.8vw;
   margin-bottom: -14.8vw;
+  z-index: 5;
 }
 #goal6, #goal12, #goal13, #goal14, #goal15, #goal16, #goal17{
-  z-index: 2;
+  z-index: 0;
 }
+
 #goal13:hover, #goal14:hover, #goal15:hover, #goal16:hover, #goal17:hover, #goal13:active, #goal14:active, #goal15:active, #goal16:active, #goal17:active{
   margin-top: -14.8vw;
+  z-index: 5;
 }
 
 #copyright{
@@ -448,7 +454,7 @@ justify-content: center;
     transition-duration: .25s;
   }
   #goal3:hover, #goal6:hover, #goal9:hover, #goal12:hover, #goal15:hover, #goal3:active, #goal6:active, #goal9:active, #goal12:active, #goal15:active{
-    z-index: 1;
+    z-index: 2;
     grid-row: auto;
     grid-column: auto;
     margin-left: -29.6vw;
@@ -463,7 +469,7 @@ justify-content: center;
     transition-duration:.25s;
   }
   #goal16:hover, #goal17:hover, #goal16:active, #goal17:active{
-    z-index: 1;
+    z-index: 2;
     margin-top:0;
     grid-column: auto;
     grid-row: auto;
